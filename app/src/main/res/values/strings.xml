@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Satu.in</string>
+    <string name="skip_button">skip</string>
+    <string name="get_started">Get Started</string>
+    <string name="get_startedDSC">"Apakah anda ingin <br/> memiliki akun sebagai penjual?"</string>
 </resources>
