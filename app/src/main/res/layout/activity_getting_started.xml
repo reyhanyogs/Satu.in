@@ -7,57 +7,73 @@
     tools:context=".GettingStarted">
 
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/SkipButton"
-        android:layout_width="150dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="16dp"
+    <View
+        android:id="@+id/view"
+        android:layout_width="412dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="296dp"
         android:background="@drawable/rounded_corners"
-        android:text="@string/skip_button"
-        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/MulaiButton"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="97dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/mulai_button"
+        android:textColor="#FFCC08"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/iv_logoGS"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/logo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/getStarted"
-        android:layout_width="350dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="610dp"
-        android:background="@drawable/rounded_corners"
-        android:text="@string/get_started"
-        android:textAllCaps="true"
-        android:textColor="@color/black"
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
-        android:gravity="center"
-        android:textSize="18sp"
-        android:text="@string/get_startedDSC"
-        android:textColor="@color/black"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="181dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/get_started"
+        android:textColor="#482611"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.017"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,8 +11,8 @@ class GettingStarted : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_getting_started)
-        val buttonSkip = findViewById<Button>(R.id.SkipButton)
-        buttonSkip.setOnClickListener {
+        val buttonMulai = findViewById<Button>(R.id.MulaiButton)
+        buttonMulai.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
