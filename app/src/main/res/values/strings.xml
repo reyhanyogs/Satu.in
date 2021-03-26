@@ -2,4 +2,12 @@
     <string name="app_name">Satu.in</string>
     <string name="mulai_button">Mulai</string>
     <string name="get_started">Transaksi mudah dari e-wallet apapun</string>
+    <string name="getStarted2">Pilih ingin masuk sebagai apakah anda?</string>
+    <string name="getStartedSeller">Penjual</string>
+    <string name="getStartedBuyer">Pembeli</string>
+    <string name="login">Masuk</string>
+    <string name="loginAkun">E-mail/Telepon</string>
+    <string name="loginPass">Kata Sandi</string>
+    <string name="loginBelum">Belum memiliki akun?</string>
+    <string name="loginRegister">Daftar disini</string>
 </resources>
