@@ -13,7 +13,7 @@ class GettingStarted : AppCompatActivity() {
         setContentView(R.layout.activity_getting_started)
         val buttonMulai = findViewById<Button>(R.id.MulaiButton)
         buttonMulai.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, GettingStarted2::class.java)
             startActivity(intent)
         }
     }
