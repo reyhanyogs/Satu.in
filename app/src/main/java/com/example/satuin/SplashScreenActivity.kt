@@ -1,8 +1,8 @@
 package com.example.satuin
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.satuin.databinding.ActivitySplashScreenBinding
 
 
@@ -12,13 +12,19 @@ class SplashScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashScreenBinding.inflate(layoutInflater)
         val view = binding.root
-
+        val isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("isFirstRun", true)
         binding.ivMoney.alpha = 0f
         binding.ivMoney.animate().setDuration(1500).alpha(1f).withEndAction(){
-            val i = Intent(this, MainActivity::class.java)
-            startActivity(i)
-            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
-            finish()
+            if (isFirstRun) {
+                //show getting started activity
+                startActivity(Intent(this, GettingStarted::class.java))
+                getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("isFirstRun", false).apply()
+            } else {
+                val i = Intent(this, MainActivity::class.java)
+                startActivity(i)
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+                finish()
+            }
         }
         setContentView(view)
     }
