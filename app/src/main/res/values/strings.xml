@@ -10,4 +10,9 @@
     <string name="loginPass">Kata Sandi</string>
     <string name="loginBelum">Belum memiliki akun?</string>
     <string name="loginRegister">Daftar disini</string>
+    <string name="Register">Daftar</string>
+    <string name="login2"> <b>Login</b></string>
+    <string name="Nama">Nama</string>
+    <string name="KonfirmasiPass">Konfirmasi Kata Sandi</string>
+    <string name="KembaliKe"> Kembali ke </string>
 </resources>
