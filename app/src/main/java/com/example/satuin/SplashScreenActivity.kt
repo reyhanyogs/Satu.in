@@ -20,7 +20,7 @@ class SplashScreenActivity : AppCompatActivity() {
                 startActivity(Intent(this, GettingStarted::class.java))
                 getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("isFirstRun", false).apply()
             } else {
-                val i = Intent(this, MainActivity::class.java)
+                val i = Intent(this, GettingStarted2::class.java)
                 startActivity(i)
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
                 finish()
