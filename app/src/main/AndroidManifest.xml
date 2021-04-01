@@ -9,9 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Satuin">
-        <activity android:name=".Register"></activity>
-        <activity android:name=".GettingStarted2" />
-        <activity android:name=".Login" />
+        <activity
+            android:name=".ProfilUsaha"
+            android:theme="@style/ProfilUsaha"
+            />
+        <activity
+            android:name=".Register"
+            android:theme="@style/Register" />
+        <activity
+            android:name=".GettingStarted2"
+            android:theme="@style/GettingStarted2" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Login" />
         <activity
             android:name=".GettingStarted"
             android:theme="@style/GettingStarted" />

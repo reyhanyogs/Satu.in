@@ -15,4 +15,12 @@
     <string name="Nama">Nama</string>
     <string name="KonfirmasiPass">Konfirmasi Kata Sandi</string>
     <string name="KembaliKe"> Kembali ke </string>
+    <string name="SelamatDatang"> Selamat Datang! </string>
+    <string name="Silahkan">Silahkan isi beberapa informasi berikut untuk bergabung dengan Satu.in</string>
+    <string name="NamaUsaha">Nama Usaha</string>
+    <string name="JenisUsaha">Jenis Usaha (e.x. toko roti, minuman, pakaian, dll)</string>
+    <string name="NamaPenjual">Nama Penjual</string>
+    <string name="Alamat">Alamat</string>
+    <string name="Selanjutnya">Selanjutnya</string>
+
 </resources>
