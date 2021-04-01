@@ -11,7 +11,7 @@ class Login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
         val BalikDaftar = findViewById<Button>(R.id.DaftarButton)
         BalikDaftar.setOnClickListener {
-            val intent = Intent(this, Register::class.java)
+//            val intent = Intent(this, Register::class.java)
             startActivity(intent)
         }
     }

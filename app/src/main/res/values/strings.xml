@@ -14,5 +14,7 @@
     <string name="login2"> <b>Login</b></string>
     <string name="Nama">Nama</string>
     <string name="KonfirmasiPass">Konfirmasi Kata Sandi</string>
-    <string name="KembaliKe"> Kembali ke </string>
+    <string name="KembaliKe">Kembali ke</string>
+    <string name="pmPilih">Pilih Metode Pembayaran</string>
+    <string name="pmTanya">Apakah anda melakukan pembelian sendiri atau patungan?</string>
 </resources>
