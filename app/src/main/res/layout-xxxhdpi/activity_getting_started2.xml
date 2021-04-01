@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GettingStarted2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <View
+            android:background="@drawable/rounded_corners"
+            android:id="@+id/imageView3"
+            android:layout_width="420dp"
+            android:layout_height="460dp"
+            android:layout_marginTop="415dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bggs2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/penjualButton"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/getStartedSeller"
+            android:textColor="#FFCC08"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/pembeliButton"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/getStartedBuyer"
+            android:textColor="#FFCC08"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/penjualButton" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="333dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="450dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/getStarted2"
+            android:textColor="@color/Brown2"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginBottom="423dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.276"
+            app:srcCompat="@drawable/icongs2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
