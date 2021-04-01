@@ -15,5 +15,10 @@ class Register : AppCompatActivity() {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
+        val Register = findViewById<Button>(R.id.DaftarButton)
+        Register.setOnClickListener {
+            val i = Intent(this,ProfilUsaha::class.java)
+            startActivity(i)
+        }
     }
 }
