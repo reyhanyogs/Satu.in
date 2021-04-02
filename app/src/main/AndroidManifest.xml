@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Satuin">
-        <activity android:name=".PilihMetode"></activity>
+        <activity android:name=".DetailMakananSendiri"></activity>
+        <activity android:name=".PilihMetode" />
         <activity android:name=".Register" />
         <activity android:name=".GettingStarted2" />
         <activity android:name=".Login" />
