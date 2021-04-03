@@ -9,10 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Satuin">
+        <activity android:name=".HomepagePenjual"/>
         <activity
             android:name=".ProfilUsaha"
-            android:theme="@style/ProfilUsaha"
-            />
+            android:theme="@style/ProfilUsaha" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+            </activity>
         <activity
             android:name=".Register"
             android:theme="@style/Register" />
@@ -37,7 +43,6 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/MainActivity" />
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
