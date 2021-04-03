@@ -17,4 +17,10 @@
     <string name="KembaliKe">Kembali ke</string>
     <string name="pmPilih">Pilih Metode Pembayaran</string>
     <string name="pmTanya">Apakah anda melakukan pembelian sendiri atau patungan?</string>
+    <string name="dm">Detail Makanan</string>
+    <string name="pb">Selamat Pembayaran Anda Berhasil</string>
+    <string name="pbbtn">Lihat Detail Pembayaran</string>
+    <string name="pg">Pembayaran Gagal, Silahkan Coba Lagi !</string>
+    <string name="pgbtn">Kembali</string>
+    <string name="ok">Oke</string>
 </resources>
