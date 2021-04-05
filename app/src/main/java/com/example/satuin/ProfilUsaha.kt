@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import com.example.satuin.fragments.HomeFragment
 
 class ProfilUsaha : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +22,7 @@ class ProfilUsaha : AppCompatActivity() {
         namaPenjual = findViewById(R.id.editTextNamaPenjual)
         alamat = findViewById(R.id.editTextAlamat)
         registerButton.setOnClickListener {
-            val intent = Intent (this, HomepagePenjual::class.java)
+            val intent = Intent(this, HomepagePenjual::class.java)
             val saveNamaUsaha = namaUsaha.text.toString()
             val saveJenisUsaha = jenisUsaha.text.toString()
             val saveNamaPenjual = namaPenjual.text.toString()

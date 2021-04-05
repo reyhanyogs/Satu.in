@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomepagePenjual"
+    android:theme="@style/HomepagePenjual"
+    android:background="@color/primary_yellow"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/homepagepenjual"
+        >
+
+        <ImageView
+            android:id="@+id/logoHomepagePenjual"
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logologin"
+            android:layout_marginBottom="550dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ViewDSCHomepagePenjual"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_marginBottom="430dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/logoHomepagePenjual"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:background="@drawable/rounded_corner3"
+            />
+        <TextView
+            android:id="@+id/NamaUsahaHomepagePenjual"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="159dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="#391D0C"
+            android:textSize="15sp"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="@+id/ViewDSCHomepagePenjual"
+            app:layout_constraintLeft_toLeftOf="@+id/ViewDSCHomepagePenjual"
+            app:layout_constraintRight_toRightOf="@+id/ViewDSCHomepagePenjual"
+            />
+
+        <TextView
+            android:id="@+id/JenisUsahaHomepagePenjual"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="160dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="@+id/ViewDSCHomepagePenjual"
+            app:layout_constraintLeft_toLeftOf="@+id/NamaUsahaHomepagePenjual"
+            app:layout_constraintRight_toRightOf="@+id/ViewDSCHomepagePenjual"
+            />
+
+        <TextView
+            android:id="@+id/AlamatUsahaHomepagePenjual"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="100dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/Brown2"
+            android:textSize="14sp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/NamaUsahaHomepagePenjual"
+            app:layout_constraintLeft_toLeftOf="@+id/ViewDSCHomepagePenjual"
+            app:layout_constraintRight_toRightOf="@+id/ViewDSCHomepagePenjual"
+            />
+
+
+        <View
+            android:id="@+id/ViewSaldoHP"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="270dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/ViewDSCHomepagePenjual"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:background="@drawable/rounded_corner3"
+            />
+
+        <ImageView
+            android:id="@+id/ppHomepagePenjual"
+            android:src="@drawable/pp_penjual"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            app:layout_constraintBottom_toTopOf="@id/NamaPenjualHomepagePenjual"
+            app:layout_constraintRight_toRightOf="@id/ViewSaldoHP"
+            app:layout_constraintTop_toTopOf="@id/ViewSaldoHP"
+            />
+
+        <TextView
+            android:id="@+id/SaldoHomepagePenjual"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginBottom="55dp"
+            app:layout_constraintTop_toTopOf="@+id/ViewSaldoHP"
+            app:layout_constraintLeft_toLeftOf="@+id/ViewSaldoHP"
+            app:layout_constraintRight_toRightOf="@+id/ViewSaldoHP"
+            app:layout_constraintBottom_toBottomOf="@+id/ViewSaldoHP"
+            android:text="@string/SaldoAnda"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/primary_yellow"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/JumlahSaldoHomepagePenjual"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/SaldoHomepagePenjual"
+            app:layout_constraintLeft_toLeftOf="@+id/ViewSaldoHP"
+            app:layout_constraintRight_toRightOf="@+id/ViewSaldoHP"
+            app:layout_constraintBottom_toBottomOf="@+id/ViewSaldoHP"
+            android:text="@string/SaldoHomepagePenjual"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="23sp"
+            android:textColor="@color/Brown2"
+            />
+
+        <TextView
+            android:id="@+id/NamaPenjualHomepagePenjual"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/ppHomepagePenjual"
+            app:layout_constraintLeft_toRightOf="@+id/JumlahSaldoHomepagePenjual"
+            app:layout_constraintRight_toRightOf="@+id/ViewSaldoHP"
+            app:layout_constraintBottom_toBottomOf="@+id/ViewSaldoHP"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="10sp"
+            android:textColor="@color/Brown2"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ButtonBuatBill"
+            android:layout_width="220dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="180dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/rounded_corner3"
+            android:text="@string/PembayaranBaru"
+            android:textAllCaps="false"
+            android:textColor="@color/Brown2"
+            android:textSize="21sp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="start"
+            android:padding="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ViewSaldoHP" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ButtonPenarikanSaldo"
+            android:layout_width="220dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="160dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/rounded_corner3"
+            android:text="@string/PenarikanSaldo"
+            android:textAllCaps="false"
+            android:textColor="@color/Brown2"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="23sp"
+            android:gravity="end"
+            android:padding="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ButtonBuatBill"
+            app:layout_constraintTop_toBottomOf="@+id/ButtonBuatBill" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

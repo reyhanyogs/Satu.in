@@ -10,8 +10,13 @@ class Login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         val BalikDaftar = findViewById<Button>(R.id.DaftarbuttonLogin)
+        val mulaiButton = findViewById<Button>(R.id.MulaiButton)
         BalikDaftar.setOnClickListener {
             val intent = Intent(this, Register::class.java)
+            startActivity(intent)
+        }
+        mulaiButton.setOnClickListener {
+            val intent = Intent(this, HomepagePenjual::class.java)
             startActivity(intent)
         }
     }

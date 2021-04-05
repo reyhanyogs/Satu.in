@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Satuin">
-        <activity android:name=".HomepagePenjual"/>
+        <activity
+            android:name=".HomepagePenjual"
+            android:theme="@style/ProfilUsaha"/>
         <activity
             android:name=".ProfilUsaha"
-            android:theme="@style/ProfilUsaha" >
+            android:theme="@style/HomepagePenjual" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 

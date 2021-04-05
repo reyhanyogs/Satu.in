@@ -21,4 +21,7 @@
     <style name="ProfilUsaha" parent ="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/primary_yellow</item>
     </style>
+    <style name="HomepagePenjual" parent ="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_yellow</item>
+    </style>
 </resources>

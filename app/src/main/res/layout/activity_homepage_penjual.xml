@@ -2,183 +2,30 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".HomepagePenjual">
+    android:layout_height="match_parent">
 
-    <View
-        android:id="@+id/ViewHP"
-        android:layout_width="match_parent"
-        android:layout_height="83dp"
-        android:layout_marginBottom="578dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:background="@color/primary_yellow"
-        />
-
-    <ImageView
-        android:id="@+id/logoHomepagePenjual"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:src="@drawable/logologin"
-        app:layout_constraintBottom_toBottomOf="@+id/ViewHP"
+    <FrameLayout
+        android:id="@+id/fl_wrapper"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/ViewHP" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <View
-        android:id="@+id/ViewDSCHomepagePenjual"
-        android:layout_width="match_parent"
-        android:layout_height="165dp"
-        android:layout_marginBottom="430dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="60dp"
-        app:layout_constraintTop_toBottomOf="@+id/ViewHP"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/Brown2"
+        app:itemTextColor="@color/Brown2"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:background="@drawable/rounded_corner3"
-        />
-    <TextView
-        android:id="@+id/NamaUsahaHomepagePenjual"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="15dp"
-        android:fontFamily="@font/poppins_semibold"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        android:gravity="center"
-        app:layout_constraintTop_toTopOf="@+id/ViewDSCHomepagePenjual"
-        app:layout_constraintLeft_toLeftOf="@+id/ViewDSCHomepagePenjual"
-        app:layout_constraintRight_toRightOf="@+id/ViewDSCHomepagePenjual"
-        />
-
-    <TextView
-        android:id="@+id/JenisUsahaHomepagePenjual"
-        android:layout_width="200dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="5dp"
-        android:fontFamily="@font/poppins_semibold"
-        android:textColor="@color/black"
-        android:textSize="12sp"
-        android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@+id/NamaUsahaHomepagePenjual"
-        app:layout_constraintLeft_toLeftOf="@+id/ViewDSCHomepagePenjual"
-        app:layout_constraintRight_toRightOf="@+id/ViewDSCHomepagePenjual"
-        />
-
-    <TextView
-        android:id="@+id/AlamatUsahaHomepagePenjual"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="5dp"
-        android:fontFamily="@font/poppins_semibold"
-        android:textColor="@color/Brown2"
-        android:textSize="14sp"
-        android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@+id/JenisUsahaHomepagePenjual"
-        app:layout_constraintLeft_toLeftOf="@+id/ViewDSCHomepagePenjual"
-        app:layout_constraintRight_toRightOf="@+id/ViewDSCHomepagePenjual"
-        />
-
-
-    <View
-        android:id="@+id/ViewSaldoHP"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:layout_marginBottom="240dp"
-        android:layout_marginTop="82dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp"
-        app:layout_constraintTop_toBottomOf="@+id/ViewDSCHomepagePenjual"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:background="@drawable/rounded_corner4"
-        />
-    
-    <TextView
-        android:id="@+id/SaldoHomepagePenjual"
-        android:layout_width="170dp"
-        android:layout_height="35dp"
-        android:layout_marginRight="110dp"
-        android:layout_marginBottom="55dp"
-        app:layout_constraintTop_toTopOf="@+id/ViewSaldoHP"
-        app:layout_constraintLeft_toLeftOf="@+id/ViewSaldoHP"
-        app:layout_constraintRight_toRightOf="@+id/ViewSaldoHP"
-        app:layout_constraintBottom_toBottomOf="@+id/ViewSaldoHP"
-        android:text="@string/SaldoAnda"
-        android:fontFamily="@font/poppins_bold"
-        android:textColor="@color/black"
-        android:textSize="23sp" />
-
-    <TextView
-        android:id="@+id/JumlahSaldoHomepagePenjual"
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="100dp"
-        app:layout_constraintTop_toBottomOf="@+id/SaldoHomepagePenjual"
-        app:layout_constraintLeft_toLeftOf="@+id/ViewSaldoHP"
-        app:layout_constraintRight_toRightOf="@+id/ViewSaldoHP"
-        app:layout_constraintBottom_toBottomOf="@+id/ViewSaldoHP"
-        android:text="@string/SaldoHomepagePenjual"
-        android:fontFamily="@font/poppins_bold"
-        android:textSize="23sp"
-        android:textColor="@color/white"
-        />
-
-    <TextView
-        android:id="@+id/NamaPenjualHomepagePenjual"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@+id/SaldoHomepagePenjual"
-        app:layout_constraintLeft_toRightOf="@+id/JumlahSaldoHomepagePenjual"
-        app:layout_constraintRight_toRightOf="@+id/ViewSaldoHP"
-        app:layout_constraintBottom_toBottomOf="@+id/ViewSaldoHP"
-        android:fontFamily="@font/poppins_bold"
-        android:textSize="13sp"
-        android:textColor="@color/white"
-        />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ButtonBuatBill"
-        android:layout_width="150dp"
-        android:layout_height="135dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="180dp"
-        android:layout_marginTop="35dp"
-        android:background="@drawable/rounded_corner3"
-        android:text="@string/BuatBill"
-        android:textAllCaps="false"
-        android:textColor="@color/Brown2"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ViewSaldoHP" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ButtonPenarikanSaldo"
-        android:layout_width="150dp"
-        android:layout_height="135dp"
-        android:layout_marginLeft="6dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="35dp"
-        android:background="@drawable/rounded_corner3"
-        android:text="@string/PenarikanSaldo"
-        android:textAllCaps="false"
-        android:textColor="@color/Brown2"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ButtonBuatBill"
-        app:layout_constraintTop_toBottomOf="@+id/ViewSaldoHP" />
+        app:menu="@menu/navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

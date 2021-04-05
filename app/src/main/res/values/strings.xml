@@ -24,8 +24,14 @@
     <string name="Selanjutnya">Selanjutnya</string>
     <string name="SaldoAnda">Saldo Anda</string>
     <string name="SaldoHomepagePenjual">Rp0</string>
-    <string name="BuatBill">Buat bill pembayaran baru</string>
-    <string name="PenarikanSaldo">Lakukan penarikan saldo</string>
+    <string name="PembayaranBaru">Pembayaran Baru</string>
+    <string name="PenarikanSaldo">Penarikan Saldo</string>
+    <string name="ProfilUsaha">Profil Usaha</string>
+    <string name="EditProfilUsaha">Edit Profil Usaha</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
