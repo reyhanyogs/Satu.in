@@ -9,18 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Satuin">
+        <activity android:name=".PenarikanSaldo"></activity>
         <activity
             android:name=".HomepagePenjual"
-            android:theme="@style/ProfilUsaha"/>
+            android:theme="@style/ProfilUsaha" />
         <activity
             android:name=".ProfilUsaha"
-            android:theme="@style/HomepagePenjual" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/HomepagePenjual">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-            </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Register"
             android:theme="@style/Register" />
@@ -30,16 +31,11 @@
         <activity
             android:name=".Login"
             android:theme="@style/Login" />
-        android:theme="@style/Theme.Satuin" >
-        <activity android:name=".PembayaranGagal" >
-        </activity>
+        <activity android:name=".PembayaranGagal"></activity>
         <activity android:name=".PembayaranBerhasil" />
         <activity android:name=".DetailMakananPatungan" />
         <activity android:name=".DetailMakananSendiri" />
         <activity android:name=".PilihMetode" />
-        <activity android:name=".Register" />
-        <activity android:name=".GettingStarted2" />
-        <activity android:name=".Login" />
         <activity
             android:name=".GettingStarted"
             android:theme="@style/GettingStarted" />

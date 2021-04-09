@@ -23,7 +23,7 @@
     <string name="Alamat">Alamat</string>
     <string name="Selanjutnya">Selanjutnya</string>
     <string name="SaldoAnda">Saldo Anda</string>
-    <string name="SaldoHomepagePenjual">Rp0</string>
+    <string name="SaldoHomepagePenjual">Rp 7.584.300</string>
     <string name="PembayaranBaru">Pembayaran Baru</string>
     <string name="PenarikanSaldo">Penarikan Saldo</string>
     <string name="ProfilUsaha">Profil Usaha</string>
@@ -37,6 +37,7 @@
     <string name="AlamatAlamatFragment">Alamat : Mall Festival Citylink lt. 2 Bandung, Jawa Barat</string>
     <string name="NamaPenjualAdimasBayu">Nama penjual : Adimas Bayu</string>
     <string name="RiwayatPembayaran">Riwayat Pembayaran</string>
+    <string name="MasukkanNominal">Masukkan nominal saldo yang ingin ditarik</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
