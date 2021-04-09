@@ -1,9 +1,7 @@
 package com.example.satuin
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 
 class GettingStarted2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,6 +11,11 @@ class GettingStarted2 : AppCompatActivity() {
         Penjual.setOnClickListener {
             val i = Intent(this, Login::class.java)
             startActivity(i)
+        }
+        val loginPembeli = findViewById<Button>(R.id.pembeliButton)
+        loginPembeli.setOnClickListener {
+            val intent = Intent(this, Login::class.java)
+            startActivity(intent)
         }
     }
 }
