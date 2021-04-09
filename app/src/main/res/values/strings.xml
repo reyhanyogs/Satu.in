@@ -28,7 +28,15 @@
     <string name="PenarikanSaldo">Penarikan Saldo</string>
     <string name="ProfilUsaha">Profil Usaha</string>
     <string name="EditProfilUsaha">Edit Profil Usaha</string>
-
+    <string name="SushiMura">Sushi Mura</string>
+    <string name="AlamatFragment">Mall Festival Citylink lt. 2 Bandung, Jawa Barat</string>
+    <string name="RestoranJepang">Restoran Jepang</string>
+    <string name="AdimasBayu">Adimas Bayu</string>
+    <string name="NamaUsahaSushiMura">Nama usaha : Sushi Mura</string>
+    <string name="JenisUsahaRestoranJepang">Jenis usaha : Restoran Jepang</string>
+    <string name="AlamatAlamatFragment">Alamat : Mall Festival Citylink lt. 2 Bandung, Jawa Barat</string>
+    <string name="NamaPenjualAdimasBayu">Nama penjual : Adimas Bayu</string>
+    <string name="RiwayatPembayaran">Riwayat Pembayaran</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
