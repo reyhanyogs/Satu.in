@@ -30,19 +30,6 @@ class HomepagePenjual : AppCompatActivity() {
             }
             true
         }
-
-//        val namaUsaha = intent.getStringExtra("namaUsaha")
-//        val jenisUsaha = intent.getStringExtra("jenisUsaha")
-//        val namaPenjual = intent.getStringExtra("namaPenjual")
-//        val alamat = intent.getStringExtra("alamat")
-//        val textViewNamaUsaha: TextView = findViewById(R.id.NamaUsahaHomepagePenjual)
-//        val textViewJenisUsaha: TextView = findViewById(R.id.JenisUsahaHomepagePenjual)
-//        val textViewNamaPenjual: TextView = findViewById(R.id.NamaPenjualHomepagePenjual)
-//        val textViewAlamat: TextView = findViewById(R.id.AlamatUsahaHomepagePenjual)
-//        textViewNamaUsaha.text = namaUsaha
-//        textViewJenisUsaha.text = jenisUsaha
-//        textViewNamaPenjual.text = namaPenjual
-//        textViewAlamat.text = alamat
     }
     private fun makeCurrentFragment(fragment: Fragment) =
             supportFragmentManager.beginTransaction().apply {
